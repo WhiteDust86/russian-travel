@@ -2,10 +2,28 @@
   background-color: #2A2C2F;
   max-width: 985px;
   margin: 0 auto;
-  padding-bottom: 92px;
+  /* padding-bottom: 92px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
 }
 
+@media (max-width: 1024px) {
+  .lead {
+    padding: 48px 48px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead {
+    padding: 48px 0 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead {
+    margin: 0 auto 64px;
+    max-width: 100%;
+  }
+}

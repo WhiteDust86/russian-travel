@@ -2,9 +2,21 @@
   color: #FFFFFF;
   margin-top: 8px;
   font-family: Inter;
-font-size: 10px;
-font-weight: normal;
-line-height: 14px;
-letter-spacing: 0.15em;
-text-transform: uppercase;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .lead__captione {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__captione {
+    margin-left: 16px;
+  }
 }
