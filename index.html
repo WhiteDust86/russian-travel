@@ -11,7 +11,7 @@
 <body class="page">
 
   <header class="header">
-    <img src="./images/header-logo.svg" alt="Логотип" class="logo" />
+    <img src="./images/header-logo.svg" alt="Логотип" class="header__logo" />
     <ul class="header__lang">
       <li><a href="#" class="header__link header__link_active link">Ru</a> </li>
       <li><a href="#" class="header__link link">En</a></li>
@@ -22,11 +22,11 @@
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <div class="lead__image">
+      <figure class="lead__container">
         <img src="./images/lead-polka.jpg" alt="Схема следования из города в город на фоне спящей пассажирки поезда"
           class="lead__image">
-        <p class="lead__captione">ваша полка — верхняя</p>
-      </div>
+        <figcaption class="lead__captione">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
 
     <section class="intro">
@@ -131,7 +131,7 @@
           <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
             в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.
           </p>
-          <p class="place__paragraph">НКонечно, это всё так. Но Байкал ещё идеальное место для соревнований по
+          <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по
             скийорингу. Это такой вид спорта, когда лыжник привязывает себя
             к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале
             «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
@@ -156,9 +156,9 @@
       </div>
     </section>
 
+
     <section class="cover">
-      <div class="cover__background"></div>
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay" target="_blank">
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
         <h2 class="cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
           электричках.</p>
