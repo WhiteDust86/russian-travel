@@ -3,9 +3,38 @@
   display: flex;
   align-items: center;
   height: 100%;
-  /* position: relative; */
+  /*position: relative;*/
   box-sizing: border-box;
   justify-content: center;
   overflow: visible;
   flex-direction: column;
+  align-self: self-start;
+  max-width: 1184px;
+  min-height: 740px;
+  background-color: rgba(42, 44, 47, 0.3);
+}
+
+.cover__link:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover__link {
+    width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 1023px) {
+  .cover__link {
+    width: 100%;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .cover__link {
+    width: 100%;
+    min-height: 200px;
+  }
 }
